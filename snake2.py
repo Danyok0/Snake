@@ -93,7 +93,7 @@ class Game:
 
         self.canvas.after(100, self.GAME)
 
-# Настройка окна и канваса
+# Настройка окна
 root = Tk()
 canvas = Canvas(width=300, height=320, bg="black")
 canvas.pack()
